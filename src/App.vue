@@ -6,8 +6,9 @@ import { ref } from 'vue'
 import Home from './components/Home.vue'
 import Contact from './components/Contact.vue'
 import Music from './components/Music.vue'
+import Bg from './components/Bg.vue'
 
-import { IconCamera, IconEdit, IconUser} from '@arco-design/web-vue/es/icon';
+import { IconCamera, IconEdit, IconUser } from '@arco-design/web-vue/es/icon';
 
 enum ePage {
   HOME = 'HOME',
@@ -27,19 +28,9 @@ function page_change() {
 <template>
   <div id="bg_img" class="bg">
 
+    
+  <Bg class="bg">
     <a-menu mode="horizontal" :default-selected-keys="['1']" theme="dark">
-      <!-- <a-menu-item key="0" :style="{ padding: 0, marginRight: '38px' }" disabled>
-        <div
-          :style="{
-            width: '80px',
-            height: '30px',
-            borderRadius: '2px',
-            background: 'var(--color-fill-3)',
-            cursor: 'text',
-          }"
-        ></div>
-      </a-menu-item> -->
-
       <a-menu-item key="1" @click="page = ePage.HOME">HOME</a-menu-item>
       <a-menu-item key="2" @click="page = ePage.MUSIC">MUSIC</a-menu-item>
       <a-menu-item key="3" @click="page = ePage.BLOG">BLOG</a-menu-item>
@@ -57,6 +48,7 @@ function page_change() {
     <Home v-if="page == ePage.HOME"> </Home>
     <Music v-if="page == ePage.MUSIC"></Music>
     <Contact v-if="page == ePage.CONTACT"></Contact>
+  </Bg>
   </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 
@@ -74,6 +66,9 @@ function page_change() {
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 } */
+.bg{
+  height: 100%;
+}
 #login_avatar {
   text-align: right;
   margin-top: 5px;
@@ -82,9 +77,15 @@ function page_change() {
 
 #bg_img {
   /* margin: 0; */
+  overflow: hidden;
+  align-items: center;
+	justify-content: center;
+
   height: 100%;
   background-image: url(./assets/bg1.jpg);
   background-size: cover;
+  background-position: center center;
+  padding: 2rem;
   /* padding-bottom: 50%; */
 }
 
@@ -95,3 +96,4 @@ function page_change() {
   background-color: var(--color-neutral-2);
 }
 </style>
+
