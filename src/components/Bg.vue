@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="container">
+<!-- <div class="container"> -->
     <div class="bird-container bird-container--one">
         <div class="bird bird--one"></div>
     </div>
@@ -19,7 +19,7 @@
     <div class="bird-container bird-container--four">
         <div class="bird bird--four"></div>
     </div>
-</div>
+<!-- </div> -->
 </template>
 
 <style lang="scss" scoped>
@@ -36,7 +36,7 @@
 	padding: 2rem;
 }
 .bird {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
+    background-image: url(../assets/bird-cells-new.svg);
     background-size: auto 100%;
     width: 88px;
     height: 125px;
@@ -68,6 +68,7 @@
 }
 
 .bird-container {
+    z-index: 0;
     position: absolute;
     top: 20%;
     left: -10%;

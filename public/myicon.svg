@@ -1,0 +1,42 @@
+<svg width="142.5" height="142.5" xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB" preserveAspectRatio="xMidYMid meet" version="1.0">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_3" class="background" fill-opacity="0" fill="#ffffff" height="142.5" width="142.5" y="53.75" x="98.75"/>
+  <rect id="svg_4" class="watermarklayer" transform="translate(98.75,53.75)" fill="url(#watermark)" height="142.5" width="142.5" y="0" x="0"/>
+  <g id="svg_5" class="iconmbgsvg">
+   <g id="svg_6" hollow-target="textNormalTran" fill="#333">
+    <g id="svg_7">
+     <g id="svg_8">
+      <rect id="svg_9" class="image-rect" height="142.5" width="142.5" y="-0.25" x="-0.25" stroke-width="2" fill-opacity="0" fill="#333"/>
+      <svg id="svg_10" class="image-svg-svg primary" filtersec="colorsb9525571210" height="142.5" width="142.5" y="-0.25" x="-0.25">
+       <svg id="svg_11" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path id="svg_12" d="m100,0l0,100l-18.54,0l0,-81.46l-81.46,0l0,-18.54l100,0z" fill="#06a2a8"/>
+        <path id="svg_13" d="m0,71.27l28.73,0l0,28.73l-28.73,0l0,-28.73z" fill="#ee3232"/>
+        <path id="svg_14" d="m63.64,36.36l0,63.64l-16.55,0l0,-47.09l-47.09,0l0,-16.55l63.64,0z" fill="#fd941f"/>
+       </svg>
+      </svg>
+      <!---->
+     </g>
+    </g>
+    <g id="svg_15">
+     <g id="svg_16" class="tp-name" data-gra="path-name">
+      <g id="svg_17" transform="translate(98.75 53.75) scale(2.92 2.92)">
+       <g id="svg_18">
+        <path id="svg_19" d="m-13.16745,-17.16766l0,0q2.79,-0.53 4.78,1.94l0,0q1.18,5.37 1.34,12.46l0,0q0.32,3.17 -0.16,5.32l0,0q-0.81,2.57 -0.75,3.49l0,0q0.48,0.7 1.82,-0.7l0,0q3.6,-3.12 5.05,-6.39l0,0q1.45,-1.61 3.6,-0.16l0,0q2.42,2.14 0.54,4.94l0,0q-7.25,9.67 -27.61,23.85l0,0q-1.72,1.39 -2.79,1.34l0,0q-1.77,0.59 -0.48,-1.08l0,0q8.54,-9.83 18.36,-19.39l0,0q0.43,-0.53 0.49,-0.8l0,0q0,-0.48 -1.67,0l0,0q-1.02,0.48 -3.7,2.31l0,0q-1.94,1.13 -2.53,-1.34l0,0q-0.16,-1.08 -0.86,-2.21l0,0q-0.86,-1.23 1.24,-1.07l0,0q1.45,0.05 2.52,-1.18l0,0q0.81,-1.35 0.81,-3.92l0,0q0.86,-10.58 -0.22,-14.94l0,0q-0.75,-1.77 0.22,-2.47zm13.8,8.11l0,0q2.96,-0.91 5.1,0.38l0,0q4.84,1.5 3.23,5.64l0,0q-1.56,3.12 -3.92,0.22l0,0q-2.15,-1.35 -4.3,-2.48l0,0q-3.17,-1.88 -0.11,-3.76zm-27.39,5.91l0,0q0.86,-2.36 2.79,-1.45l0,0q1.08,1.35 2.58,0.16l0,0q0.48,-0.53 0.16,0.97l0,0q-0.8,3.38 -0.54,6.77l0,0q0,1.61 -0.16,1.82l0,0q-4.51,2.21 -5.37,-3.97l0,0q-0.37,-2.15 0.54,-4.3z"/>
+       </g>
+       <!---->
+       <!---->
+       <!---->
+       <!---->
+       <!---->
+       <!---->
+       <!---->
+      </g>
+     </g>
+     <!---->
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
